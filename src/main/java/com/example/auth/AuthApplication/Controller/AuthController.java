@@ -12,7 +12,6 @@ public class AuthController {
     @Autowired
     private AuthService authService;
 
-
     @PostMapping("/signup")
     public String signup(@RequestBody User user) {
         return authService.signup(user);
