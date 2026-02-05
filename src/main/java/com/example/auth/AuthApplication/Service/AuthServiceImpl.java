@@ -45,7 +45,6 @@ public class AuthServiceImpl implements AuthService {
         if (match) {
             return "Login successful";
         }
-
         return "Invalid username or password";
     }
 }
